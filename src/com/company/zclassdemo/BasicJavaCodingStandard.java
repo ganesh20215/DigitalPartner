@@ -19,7 +19,7 @@ public class BasicJavaCodingStandard{
             System.out.print((char) i);
         }
 
-        fileReader.close();
+        System.out.println("Hellloooooo");
 
     }
 }
