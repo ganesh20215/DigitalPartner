@@ -2,21 +2,20 @@ package com.company.constructor;
 
 public class ConstructorTest {
 
-    int a;
-
-
-     ConstructorTest(){
-        System.out.println("Hello I am default constructor");
-    }
+    int d= 20;
+    int e = 30;
 
     ConstructorTest(int a, int b){
-        System.out.println("Hello I am Parameterized constructor " + (a+b));
+        System.out.println(a);
+        System.out.println(b);
+    }
+
+    public static void m1(){
+        System.out.println("private method");
     }
 
     public static void main(String[] args) {
-        ConstructorTest ct = new ConstructorTest();
-        System.out.println(ct.a);
-        ConstructorTest ct2 = new ConstructorTest(10,20);
-        ConstructorTest ct3 = new ConstructorTest(20,30);
+        ConstructorTest ct = new ConstructorTest(10, 20);
+        ConstructorTest ct1 = new ConstructorTest(30, 40);
     }
 }

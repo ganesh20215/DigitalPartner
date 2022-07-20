@@ -1,13 +1,26 @@
 package com.company.polymorphism;
 
-public class TestPolymorphism {
-    public static void main(String args[]) {
-        Bank b;
-        b = new SBI();
-        System.out.println("SBI Rate of Interest: " + b.getRateOfInterest());
-        b = new ICICI();
-        System.out.println("ICICI Rate of Interest: " + b.getRateOfInterest());
-        b = new Axis();
-        System.out.println("AXIS Rate of Interest: " + b.getRateOfInterest());
+class Rbi {
+    public void roi( int a) {
+        System.out.println("Repo rate is 6.7");
     }
+}
+
+class Sbi extends Rbi {
+    public void roi(int a) {
+        System.out.println("Repo rate is 6.8");
+    }
+}
+
+class Hdfc extends Rbi {
+    public void roi(int a) {
+        System.out.println("Repo rate is 6.75");
+    }
+}
+
+public class TestPolymorphism {
+
+    //method overriding
+
+
 }

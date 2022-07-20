@@ -12,6 +12,6 @@ public class ExampleOfPattern {
             count++;
             System.out.println(m.start() + "-----------" + m.end() + "-------------" + m.group());
         }
-        System.out.println("Total Count of the pattern ab is " + count);
+        System.out.println("Total Count of the pattern a is " + count);
     }
 }

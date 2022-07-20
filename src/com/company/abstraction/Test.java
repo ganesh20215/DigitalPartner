@@ -1,22 +1,26 @@
 package com.company.abstraction;
 
-abstract class Test {
 
-    Test(){
+import com.company.java8.interfaceexample.defaultexample.DefaultInterfaceExample;
 
+
+public class Test extends Partner {
+
+    int d;
+
+    Test(int a, int b, int c) {
+        super(a, b, c);
     }
 
-    abstract void abstractMethod();
-
-    void normalMethod(){
-        System.out.println("Normal Method");
-    }
-
-    final void finalMethod(){
-        System.out.println("Hi I am final Method");
+    @Override
+    public void m1() {
+        System.out.println("m1 method");
     }
 
     public static void main(String[] args) {
 
+
+        DefaultInterfaceExample defaultInterfaceExample = new DefaultInterfaceExample();
     }
 }
+

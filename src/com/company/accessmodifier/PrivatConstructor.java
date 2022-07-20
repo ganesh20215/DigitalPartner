@@ -10,8 +10,6 @@ public class PrivatConstructor {
         PrivatConstructor p = new PrivatConstructor();
         System.out.println("  " + p.x);
 
-        TestDigital td = new TestDigital();
-        td.test();
-        System.out.println(td.a);
+
     }
 }

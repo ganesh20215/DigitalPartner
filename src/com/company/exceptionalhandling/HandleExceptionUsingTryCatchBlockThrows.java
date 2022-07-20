@@ -1,7 +1,5 @@
 package com.company.exceptionalhandling;
 
-import java.io.IOException;
-
 public class HandleExceptionUsingTryCatchBlockThrows {
     void method() throws ArithmeticException {
         System.out.println(10/0);

@@ -54,7 +54,7 @@ public class OperatorsLearning {
 //            int c = 10;
 //            int d = 9;
             int max = (a > b) ? a : b;
-            System.out.println("minimum is = " + max);
+            System.out.println("maximum is = " + max);
 
             if (a <= b && c <= d) {
                 System.out.println("&& got success");

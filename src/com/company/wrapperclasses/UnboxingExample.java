@@ -13,5 +13,9 @@ public class UnboxingExample {
         int num = arrayList.get(0);
         // printing the values from primitive data types
         System.out.println(num);
+
+        Test t = new Test();
+        t.method1();
+        System.out.println(t.b);
     }
 }

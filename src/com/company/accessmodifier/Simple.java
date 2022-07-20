@@ -17,9 +17,8 @@ public class Simple {
     public static void main(String[] args) {
         ExampleOfPrivate ep2 = new ExampleOfPrivate();
         Simple s = new Simple();
-        TestDigital td = new TestDigital();
-        td.test();
-        System.out.println(td.a);
+
+
 //        PrivatConstructor pc = new PrivatConstructor();
         System.out.println(s.CHECK_CHECK);
         ep2.msg();

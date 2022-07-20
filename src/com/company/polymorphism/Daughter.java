@@ -2,19 +2,19 @@ package com.company.polymorphism;
 
 public class Daughter extends FatherMother{
 
-//    void marriage(int a, int b){
-//        System.out.println("Child class method" + (a+b));
-//    }
-
-    public static void methodOverridingExample(){
-        System.out.println("My child class static method");
+    Daughter(){
+        System.out.println("Child class constructor");
     }
 
+    @Override
+    public int marriage(int a, int b) {
+        System.out.println("I want to marry with my own choice " + (a+b));
+        return a+b;
+    }
 
     public static void main(String[] args) {
+        FatherMother f = new Daughter();
         Daughter d = new Daughter();
-        d.marriage(30,40);
-
-        methodOverridingExample();
     }
+
 }

@@ -1,10 +1,7 @@
 package com.company.interfaceexample;
 
-public interface Showable {
+public interface Showable extends Printable, Digital{
     void show();
     void print();
 
-//    abstract void addAbstract(){
-//        System.out.println("Hi I am default method");
-//    }
 }

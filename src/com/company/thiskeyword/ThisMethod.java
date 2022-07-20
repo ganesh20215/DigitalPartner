@@ -1,8 +1,5 @@
 package com.company.thiskeyword;
 
-import com.company.collection.StackExample;
-import com.company.tokens.literal.StaticExample;
-
 public class ThisMethod {
    String s;
     ThisMethod(){

@@ -8,6 +8,6 @@ public class PrimitiveDataType {
         int d = 2147483647;
         long e = 40;
         float f = 1.3f;
-        double g = 3.3d;
-    }
+    double g = 3.3d;
+}
 }

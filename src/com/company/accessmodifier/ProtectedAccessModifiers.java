@@ -9,4 +9,9 @@ public class ProtectedAccessModifiers {
     protected void test(){
 
     }
+
+
+    public static void main(String[] args) {
+        ProtectedAccessModifiers p = new ProtectedAccessModifiers();
+    }
 }

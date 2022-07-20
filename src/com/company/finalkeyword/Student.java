@@ -1,6 +1,6 @@
 package com.company.finalkeyword;
 
-public class Student {
+public class Student{
     int id;
     String name;
     final int PAN_CARD_NUMBER;
@@ -30,6 +30,5 @@ public class Student {
     }
     public static void main(String[] args) {
         Student s = new Student();
-        Test t = new Test();
     }
 }
